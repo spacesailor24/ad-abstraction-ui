@@ -3,10 +3,7 @@ import styles from "./page.module.css";
 export default function Home() {
   return (
     <main className={styles.main}>
-      <div className={styles.center}>
-        Hello World
-
-        <iframe
+      <iframe
           data-aa='2311888'
           src='//acceptable.a-ads.com/2311888'
           style={{
@@ -18,7 +15,6 @@ export default function Home() {
             backgroundColor: 'transparent',
           }}
         ></iframe>
-      </div>
     </main>
   );
 }
